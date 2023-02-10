@@ -19,6 +19,26 @@ To add or update the line **127.0.0.1 example.com** in the hosts file, run the f
 
 `go run script.go 127.0.0.1 example.com`
 
+## Installation as Environment Variable
+
+You can install this program as an environment variable using the `-i` flag. This will allow you to call the program by using the `opaki` command.
+
+To install, run the following command in your terminal with administrative privileges:
+
+`go run main.go -i`
+
+This will install the program as an environment variable and you will be able to call the program using the `opaki` command in your terminal.
+
+## Uninstalling
+
+To uninstall this program, you will need to remove the `OPAKI_EXEC` environment variable. The exact steps for doing this will vary depending on your operating system.
+
+
+
+Replace <ipAddress> and <domainName> with the desired values.
+
+
+
 ## Contributing
 If you want to contribute to this project, feel free to submit a pull request with your changes.
 
